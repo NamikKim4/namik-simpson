@@ -71,6 +71,27 @@
         "choice":true,
         "new":false,
         "size":["M"]
+    },
+    {
+        "id":9,
+        "img":"https://i.namu.wiki/i/nudXSThvK0laEr7bN1xi2C6Tpo2g9NfE32qkkf5CJZrwmVse-c9RJ8sJOU7H6CygA7HIxhfb5NWXWsXNAHXqNQ.webp",
+        "title":"Patty Bouvier",
+        "price":900,
+        "choice":false,
+        "new":true,
+        "size":["M"]
+    },
+    {
+        "id":10,
+        "img":"https://i.namu.wiki/i/AK3kyNh1-U0jTVpZ2BuO5DhQUd2C1dyC9hG8LC8mUb7tx1fczKSA-Z0vto8_dq82eIhgSb-3XpHOtzLH875GHg.webp",
+        "title":"Selma Bouvier",
+        "price":100,
+        "choice":false,
+        "new":true,
+        "size":["M"]
     }
     ]
     }
+ 
+
+    
