@@ -9,6 +9,46 @@
         "size":["S","M","L"]
     },
     {
+<<<<<<< HEAD
+=======
+        "id":2,
+        "img":"https://i.namu.wiki/i/WeBXt3snvBMydurFOS-N6LCugvxhjodu3pepTF6JH8tl8ttVZsxowPzE_OTVhQ2Bzh4or2oRo0iW8n_UC4v4FNyWTmCOpkrY7Gu1KTmKoO9_WDXFvigQy-2VwXK806r5DyZE33GV6ICA1-YNRTxdbQ.webp",
+        "title":"Milhous",
+        "price":200,
+        "choice":true,
+        "new":true,
+        "size":["S"]
+    },
+    {
+        "id":3,
+        "img":"https://i.namu.wiki/i/ufdRCP_sYysEzuCRw27_8FV5buh3yScvUQxdUVT3QskEsvWWq9KZMTzSF3E2u_6fQq3ayCf0h-9zhZFL9cXIps1JpTvhDUzp6M5_IgmGyZsJaJhlwkAnWBtv9OSgl3n3Gp7fZ2LFSKzSEZM6lGfCQQ.webp",
+        "title":"Walter Seymour Skinner",
+        "price":300,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"]
+    },
+    
+    {
+        "id":4,
+        "img":"https://i.namu.wiki/i/AmI3lua9jBgFnj8VYFNw8t84zaoyAn5VJ6tby_wGugI1CJk4xu_10GM3bHzi8VMRom4vX5i7IEIj9RgjZJeYkw.webp",
+        "title":"Abraham Jay-Jedediah Simpson",
+        "price":400,
+        "choice":false,
+        "new":true,
+        "size":["M","L"]
+    },
+    {
+        "id":5,
+        "img":"https://i.namu.wiki/i/fegkZDwT1getnIEsX1kTDOe7-UVcfBDGF69y7YR5QGUqO_9U-xuqph3oxUt70j7HVnYtoRTkuZiBuCq--BaDAsBsJ2Kt2ASftpHoanF1fEmst668moVBhW7dp4H3sCOMNYs9Okp5E7VwbcxgvaE15g.webp",
+        "title":"Krusty the Clown",
+        "price":500,
+        "choice":true,
+        "new":false,
+        "size":["S","M","L"]
+    },
+    {
+>>>>>>> 11ae81aba1bb7ef70d460fd33ddc41e088f4ecac
         "id":6,
         "img":"https://i.namu.wiki/i/12Y-R9zEh34ZPFRQI1CX2gHDCLgWcV4u13xwZU6zYeYmffe1DQ9wcnzMhf6BRdR4a6nlDbwoi527tWn7zT5p5w.webp",
         "title":"dog",
@@ -57,4 +97,8 @@
     }
  
 
+<<<<<<< HEAD
     
+=======
+    
+>>>>>>> 11ae81aba1bb7ef70d460fd33ddc41e088f4ecac
