@@ -1,76 +1,60 @@
 { "products":[
-{
-    "id":1,
-    "img":"https://i.namu.wiki/i/HlROcCo0QyPrGLmm9qVONDnO7D0NuI2OwyBHWiUu8lUsNIucRFXs9tpvo5kZJqPY1wE2dIkbXsvR4MAvS1L8JQ.webp",
-    "title":"homer",
-    "price":100,
-    "choice":false,
-    "new":false,
-    "size":["S","M","L"]
-},
-{
-    "id":2,
-    "img":"https://i.namu.wiki/i/ry-PrV4oKdRmS1BokAQSMTlsavQ2kalvYBgmZEXitVUJO-XgoUPB6fXgECpr7_ROGDw44-OQchw6YBlRWLblNkKmieZ2X8MwDSN_wSMmRyRxBQoqweAlO_uQDIoQJSRgvwWLJNNFFJe1gibB-1IoUw.webp",
-    "title":"megi",
-    "price":200,
-    "choice":true,
-    "new":true,
-    "size":["S"]
-},
-{
-    "id":3,
-    "img":"https://i.namu.wiki/i/KJf3ounMDvhz5lw1dbFLW4t9Ffvozl1lQf24G_qf3BS71sJGXZmUlTRcqlUSNFACo7OURQITrPGimf2QXih45ID8ARG83iLxHNAwF9OuDFfv-50raJV013cB2bPYns7viroPfhmM11YZEmT0-mzQxw.webp",
-    "title":"marge",
-    "price":300,
-    "choice":false,
-    "new":false,
-    "size":["S","M","L"]
-},
+    {
+        "id":1,
+        "img":"https://i.namu.wiki/i/HlROcCo0QyPrGLmm9qVONDnO7D0NuI2OwyBHWiUu8lUsNIucRFXs9tpvo5kZJqPY1wE2dIkbXsvR4MAvS1L8JQ.webp",
+        "title":"Homer",
+        "price":100,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"]
+    },
+    {
+        "id":6,
+        "img":"https://i.namu.wiki/i/12Y-R9zEh34ZPFRQI1CX2gHDCLgWcV4u13xwZU6zYeYmffe1DQ9wcnzMhf6BRdR4a6nlDbwoi527tWn7zT5p5w.webp",
+        "title":"dog",
+        "price":500,
+        "choice":false,
+        "new":true,
+        "size":["M","L"]
+    },
+    {
+        "id":7,
+        "img":"https://i.namu.wiki/i/33TAgsOm9YNhrhAqDG9QbfBy8_4HjI9TIPNhmC8_NhHQTMXyHTo7opDuDT21eCPxyx9qeErC3KIsvICGgCLwmw.webp",
+        "title":"snowball",
+        "price":700,
+        "choice":false,
+        "new":true,
+        "size":["M"]
+    },
+    {
+        "id":8,
+        "img":"https://pbs.twimg.com/media/FFEgqsQXoAQASyU.jpg",
+        "title":"snowball 2th",
+        "price":800,
+        "choice":true,
+        "new":false,
+        "size":["M"]
+    },
+    {
+        "id":9,
+        "img":"https://i.namu.wiki/i/nudXSThvK0laEr7bN1xi2C6Tpo2g9NfE32qkkf5CJZrwmVse-c9RJ8sJOU7H6CygA7HIxhfb5NWXWsXNAHXqNQ.webp",
+        "title":"Patty Bouvier",
+        "price":900,
+        "choice":false,
+        "new":true,
+        "size":["M"]
+    },
+    {
+        "id":10,
+        "img":"https://i.namu.wiki/i/AK3kyNh1-U0jTVpZ2BuO5DhQUd2C1dyC9hG8LC8mUb7tx1fczKSA-Z0vto8_dq82eIhgSb-3XpHOtzLH875GHg.webp",
+        "title":"Selma Bouvier",
+        "price":100,
+        "choice":false,
+        "new":true,
+        "size":["M"]
+    }
+    ]
+    }
+ 
 
-{
-    "id":4,
-    "img":"https://i.namu.wiki/i/HfcaPccI-0FKIl-MWo_MXu_PdS46TApyK8aeAP0xNgqYpY8iqyLH0YMlkw6LzTl-u2imq1wE1hhm4-XppwfmtKmVCwzcLsg__9QtpOeQR_mY-xEto02umrJRLT8gh2AKCLQ94XcmORIdivRv8c7hHg.webp",
-    "title":"bart",
-    "price":400,
-    "choice":false,
-    "new":true,
-    "size":["M","L"]
-},
-{
-    "id":5,
-    "img":"https://i.namu.wiki/i/c8-fTip3PY7x1V5cj_a_-RMlmPnDqmEVuJDfnGGv_DHtLnFJh3SLaFdYp6D_8weXSF4fT-YQm8k6bDLX5dCZTo4FbkeRcj4Il6dSyloDIZai_5JfVypJeMzArB33Scpn9wt_93Sh1iyDHplTBtLF2g.webp",
-    "title":"lisa",
-    "price":500,
-    "choice":true,
-    "new":false,
-    "size":["S","M","L"]
-},
-{
-    "id":6,
-    "img":"https://i.namu.wiki/i/12Y-R9zEh34ZPFRQI1CX2gHDCLgWcV4u13xwZU6zYeYmffe1DQ9wcnzMhf6BRdR4a6nlDbwoi527tWn7zT5p5w.webp",
-    "title":"dog",
-    "price":500,
-    "choice":false,
-    "new":true,
-    "size":["M","L"]
-},
-{
-    "id":7,
-    "img":"https://i.namu.wiki/i/33TAgsOm9YNhrhAqDG9QbfBy8_4HjI9TIPNhmC8_NhHQTMXyHTo7opDuDT21eCPxyx9qeErC3KIsvICGgCLwmw.webp",
-    "title":"snowball",
-    "price":700,
-    "choice":false,
-    "new":true,
-    "size":["M"]
-},
-{
-    "id":8,
-    "img":"https://pbs.twimg.com/media/FFEgqsQXoAQASyU.jpg",
-    "title":"snowball 2th",
-    "price":800,
-    "choice":true,
-    "new":false,
-    "size":["M"]
-}
-]
-}
+    

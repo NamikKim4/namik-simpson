@@ -1,43 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';
-import ProductAll from './Page/ProductAll';
-import Login from './Page/Login';
-import ProductsDetail from './Page/ProductsDetail';
-import Navbar from './component/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState } from 'react';
-import PrivateRoute from './PrivateRoute';
-
-//1. 전체상품페이지, 로그인, 상품상세페이지 
-//1-1. 네이게이션 바를 만든다. (모든페이지에 공통으로 들어감)
-//2. 전체 상품페이지에서는 전체 상품을 볼 수 있다.
-//3-1. 로그인 버튼을 누르면 로그인 페이지가 나온다.
-//3-2. 상품디테일을 눌렀으나, 로그인이 안되어있을 경우에는 로그인페이지가 먼저 나온다.
-//4. 로그인이 되어있을 경우에는 상품 디테일 페이지를 볼 수 있다. 
-//5-1. 로그아웃 버튼을 클릭하면 로그아웃이 된다. 
-//5-2. 로그아웃이되면 상품 디테일페이지를 볼 수 없다, 다시 로그인 페이지가 보인다. 
-//6. 로그인을 하면 로그아웃이 보이고 로그아웃을 하면 로그인이 보인다. 
-//7. 상품을 검색 할 수 있다.  
+import { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./component/Navbar";
+import ProductAll from "./Page/ProductAll";
+import Login from "./Page/Login";
+import PrivateRoute from "./Route/PrivateRoute";
 
 function App() {
-  const [authenticate,setAuthenticate] = useState(false);
-  useEffect(()=>{
-    console.log("⭐⭐⭐",authenticate);
-  },[authenticate])
-
-
+  let [authenticate, setAuthenticate] = useState(false);
   return (
-    <div className="App">
-      <Navbar/>
+    <div>
+      <Navbar authenticate={authenticate} setAuthenticate={setAuthenticate} />
       <Routes>
-        <Route path="/login" element={<Login setAuthenticate={setAuthenticate}/>}/>
-        <Route path="/" element={<ProductAll/>}/>
-        <Route path="/product/:id" element={<PrivateRoute authenticate={authenticate}/>}/>
+        <Route path="/" element={<ProductAll />} />
 
+        <Route path="/login" element={<Login setAuthenticate={setAuthenticate} />} />
+        {/* setAuthenticate 함수를 props로 보내서 authenticate의 값을 받아와서 여기 App에서 세팅함*/}
+        <Route path="/product/:id" element={<PrivateRoute authenticate={authenticate} />} />
+        {/* 로그인이된 상태면  PrivateRoute에서 ProductDetail로 가게해주고 안했으면, 로그인페이지로 다시 이동시킨다. */}
       </Routes>
     </div>
   );
 }
 
-export default App;
+export default App; 
