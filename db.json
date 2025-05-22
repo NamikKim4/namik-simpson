@@ -9,7 +9,7 @@
         "size":["S","M","L"]
     },
     {
-        "id":6,
+        "id":2,
         "img":"https://i.namu.wiki/i/12Y-R9zEh34ZPFRQI1CX2gHDCLgWcV4u13xwZU6zYeYmffe1DQ9wcnzMhf6BRdR4a6nlDbwoi527tWn7zT5p5w.webp",
         "title":"dog",
         "price":500,
@@ -18,7 +18,7 @@
         "size":["M","L"]
     },
     {
-        "id":7,
+        "id":3,
         "img":"https://i.namu.wiki/i/33TAgsOm9YNhrhAqDG9QbfBy8_4HjI9TIPNhmC8_NhHQTMXyHTo7opDuDT21eCPxyx9qeErC3KIsvICGgCLwmw.webp",
         "title":"snowball",
         "price":700,
@@ -27,7 +27,7 @@
         "size":["M"]
     },
     {
-        "id":8,
+        "id":4,
         "img":"https://pbs.twimg.com/media/FFEgqsQXoAQASyU.jpg",
         "title":"snowball 2th",
         "price":800,
@@ -36,7 +36,7 @@
         "size":["M"]
     },
     {
-        "id":9,
+        "id":5,
         "img":"https://i.namu.wiki/i/nudXSThvK0laEr7bN1xi2C6Tpo2g9NfE32qkkf5CJZrwmVse-c9RJ8sJOU7H6CygA7HIxhfb5NWXWsXNAHXqNQ.webp",
         "title":"Patty Bouvier",
         "price":900,
@@ -45,7 +45,7 @@
         "size":["M"]
     },
     {
-        "id":10,
+        "id":6,
         "img":"https://i.namu.wiki/i/AK3kyNh1-U0jTVpZ2BuO5DhQUd2C1dyC9hG8LC8mUb7tx1fczKSA-Z0vto8_dq82eIhgSb-3XpHOtzLH875GHg.webp",
         "title":"Selma Bouvier",
         "price":100,
