@@ -10,7 +10,7 @@ import PrivateRoute from "./Route/PrivateRoute";
 function App() {
   let [authenticate, setAuthenticate] = useState(false);
   return (
-    <div>
+    <div style={{ backgroundColor: "lightyellow", minHeight: "100vh" }}>
       <Navbar authenticate={authenticate} setAuthenticate={setAuthenticate} />
       <Routes>
         <Route path="/" element={<ProductAll />} />
